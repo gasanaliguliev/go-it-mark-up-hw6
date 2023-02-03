@@ -631,11 +631,14 @@ margin-bottom: 16px;
 }
 
 
+.modal-input:focus + .input-icon {
+    fill: var(--hover_color);
+}
+
 
 .modal-comment {
     width: 100%;
     height: 120px;
-    color: rgba(117, 117, 117, 0.5);
     border: 1px solid #21212133;
     outline-color: var(--hover_color);
     padding-top: 8px;
@@ -781,7 +784,8 @@ margin-bottom: 16px;
 }
 
 .subscribe-button {
-    width: 165px;
+    position: relative;
+    min-width: 165px;
     height: 40px;
     padding-right: 24px;
     background-color: var(--web_color);
@@ -800,11 +804,15 @@ margin-bottom: 16px;
     color: var(--white_color);
 }
 
+.subscribe-footer {
+    margin-left: auto;
+}
+
 .subscribe-icon {
-    
-    margin-left: 16px;
-    
-   
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
 }
 
 
