@@ -497,7 +497,6 @@ ul {
 
 .footer-social {
     margin-left: 120px;
-    
 }
 
 
@@ -591,12 +590,21 @@ margin-bottom: 16px;
     background-color: var(--white_color);
     border-radius: 50%;
     border: 1px solid #0000001A;
+    transform: 250ms var(--timing-function);
 }
 
 .modal-close:active {
     background-color: #404bbf;
     fill: var(--white_color);
 }
+
+.modal-close:hover {
+    background-color: var(--hover_color);
+    fill: var(--white_color);
+}
+
+
+
 
 .modal-container {
     margin-right: 0 auto;
@@ -761,6 +769,7 @@ margin-bottom: 16px;
 .subscribe-input {
     width: 264px;
     height: 40px;
+    color: #FFFFFF99;
     background-color: transparent;
     border: 1px solid #FFFFFF4D;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -804,8 +813,9 @@ margin-bottom: 16px;
     color: var(--white_color);
 }
 
+
 .subscribe-footer {
-    margin-left: auto;
+    margin-left: 80px;
 }
 
 .subscribe-icon {
